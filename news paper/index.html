@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <div>
+    <div style="background-color:#1A1A1A ;color: #ffff;">
+    <div class="container">
+       <div class="row " style="height: 40px;">
+         <div class="col col-sm-4 col-md-6 col-lg-6">
+          <div class="d-flex flex-row bd-highlight mb-3">
+            <div class="p-2 bd-highlight">English
+              <div class="downarrow"><div class="p-2 bd-highlight"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAAAmklEQVRoge3PrQpCQRBA4VnTrRbfwqDBYDKYTLf7fD7Hvo8IF0EUi8diWBTBnyuLcL64DDtnIiRJkiRJkiQ9yDk3Oefm13tSn58Bw4jYRMSoeBtERKSULsXoNiLWKaWuz/29AsbAjuc6YFq78yXA5BZ8bw/Mave9BZgDh+KII7Co3fURYAmcgDOwqt3zFaAF2todkiRJkiT9mSsOIH4p4GZXBAAAAABJRU5ErkJggg=="></div></div>
+            </div>
+            
+            <div class="p-2 bd-highlight">| Epaper</div>
+            <div class="p-2 bd-highlight">| Gadgets Now</div>
+          </div>
+         </div>
+         <div class="col col-sm-7 col-md-6 col-lg-6">
+           <div class="d-flex flex-row-reverse bd-highlight">
+          <div class="p-1 bd-highlight">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAABmJLR0QA/wD/AP+gvaeTAAACR0lEQVRYhe2XTWsaQRjHf1OjC0ouxQZqSb2UiDR4E0+NovfGzyC0DYV+kPRDeOiphBZseywKOUZvVgihPbUYwbi5hBV2TfL0oFsW3x23N/8w8Az77DO/eXtmBjbaaCN/pHR+EpE48BLIAo+BR8AV0AFOgS9Kqd9+Qc6C2BORExG5l8X6LiL7/wvkSEScJSC8ckTkjd8g71eEGNexXyClNUFcHS1qa+4CFpEE8AMIWpZFuVzm/PycXq/Hzc0Nt7e3ANi2jWEYAGxtbbG9vU00GiWZTFIqlYhEIgAOsK+U+qk7Kp/dbmWzWQFWLrlczjs6J7ogcRntml6vpwXiFtM0XZh7Edmd1eaDOTxFRtPYbre1OuTq8vLSNRVwqAPzwjU6nc5Uh3A4TL1e5/BwZvxxGIADHZgnrmFZ1lQHwzBIp9NUKhWq1SqpVGqqX7/fnxp3FZiHrnF3dzfHbah8Ps/Z2RmxWGzi22Aw8FajOjCmawQCgYUwtVqNTCYzPiUABINBb/VKB+bfqh3liQnZtk2j0aBYLFIoFGg2m1P9wuGwtzpJu0gi8s7dj81mc62t3Wq1vLnmrQ7MUzfPmKa5Fsz19fVSeWYR0CefM/DHee0tOpv2gBaes+ni4oJut4tlWTiOA4DjOIRCIQBCoRCRSISdnR0SicT42fRcKfVLa2RGQH6d2v7ca0TkeE0Qf+4zHqDXImKvCGGLyCtfQTxAcRH5IMvdgb+JyLNV4uu+DnYZvg5yQIzh66DLMKGdAl+VUn90Ym+00UZ+6C8pcEVlginpIgAAAABJRU5ErkJggg==">
+          </div>
+          <div class="p-1 bd-highlight" style="cursor: pointer;"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAABmJLR0QA/wD/AP+gvaeTAAADSElEQVRYhe2XvU8bWRTFD5FfRQNZxpbAlha7CWPPdkBjhywudkvoPCX8BWAJU/PxP0Ab8yFhISW72ZUwLUjYFEMFZivLlklkj8EFbjLD6GwRkwyjgdiGVOF0T++de3+aN/e+94BnPeuueroxkRQAXgEYAtAPoAHgAkChp6fn5unw3JNPkNwkeUV3XbXmX/+I5EGS/9yT+D59IDn8VABRktUOAW51SXLysQC/kzS6BLjVZ5JvugUIkqw/EuBWOrvZGpL/2qNomsZQKMRyufxgtlKpxFAoRE3TnFN/dwow4Qw8MDBAVVVpWdaDEJZlUVVVSpLkBhzrBGLL7pyamuL4+DhN0+TCwgLj8bgrQDweZyqVomEYHBsb4/T0tHNJul0AQVsfODs7IwAeHx9zZ2eHQghms1mapnknummazGazFEIwk8kwl8sRAM/Pz+3LLkl62oH4ze5aWlpiJBIhSYbDYSaTSTabTSqKwvX1dZLk2toaFUVhs9nk/Pz81/WyLHNlZcX5NSLtQPxpdyQSCc7OzrJSqRAAT05OuLy8zEAgwEajwevrazYaDfr9fq6urlLTNALgxcUFZ2ZmqKqqE+IPZ84XLhwv7QNd1yFJEqrVKgDA7/ejUCggGo3C4/FAkiQIIRCLxXB6eopAIAAAqFar8Hq9qNVqzvi/tANxaR9IkgRd1+Hz+QAAlUoFIyMjODw8xM3NDer1OkzTxMHBAcLhMMrlMgDA5/OhVqvB6/U64+vtQHy0D2RZRj6fx9DQECKRCDY2NpBMJtHX14ft7W309vZia2sL/f39mJubQzqdhqIoGBwcRC6XgyzLzvifXHLeFUmPvToKhQIBMJ/PM5PJUAjB/f19GobxtWdYlkXDMLi3t0chBHd3d3l0dNR9dbRANu3O2z5hGAZTqRSj0ajzZyNJTk5OcnFxkYZhcHR01K1PvG0LoAXx2u4slUqUJKntjplIJO7rmNG2IVogH+xuTdMYDAZZLBYfhCgWiwwGg25nx7uOAFoQw/xy+j2FdJK/dgzRAnnDp7lPTHQFYAN5zM2qzsferGwgwyT/6hDgPbvdgu/AxEim+aXe3XTZmu+oCrp9d3jw7d3xEsAVgAqA/374u+NZP4X+B9LN06uRpk0rAAAAAElFTkSuQmCC"></div>
+          <div class="p-1 bd-highlight" style="cursor: pointer;"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAACAklEQVRIie2WvWsiQRjGn1kEhUSwTdxcbZFgY2Udcp114IpcuDRnc72Q7z/DfIDiXWtp7gT/Ai1ysbBTYvYUUVBYN1ZPCsPGbGZ23dMq5IGFYead9/fMO7M7C3zovUv4CSa5CuAzgE0A6wAI4B+AOwAlIYS5VHckN0hek7SolkXyiuTGsqDfPIBOjUnuLwo9dyP0+32WSiUWCgVWKhXn8Nn/QvfcoMVikZFIhJjuM4UQ7Ha7zrADv9BPbuUdDAavoAAYDoc5HA5lZdf9gK/dVlsul21gMplku92mZSl9XsoYmgS6CmDXzZhhGHY7Ho8jGo0iFAqpwr+QDHuCMX1PpVkmkwlqtRqazabd1+v1UK1W0Wq1VOAggG3VoC2SJ6qaZTKZV/s6+wQCAZqmqZp6NM+K11SmRqOR0rCmaW7lXnd2BCRBVM1OpVJoNBowDAP1eh0AoOs6YrEYEokENE22DvecLxHksduJJslcLmeXOJ1Oe4WT5KGTI7P419Odf73JKQPfAHhcItQC8McT/Hy1/Voi+KfsulSdhmNMnS6q8XOuN5KChRD3AL6rsgWDQWlboh9CiIe5LM6K5JnsiFqWxXw+z2w2y06nozrJp76BDvhXTm+ZeWWS3FsIOgPXSV56GBiTvCAZnSen35+9FQA7ALbw8hk0ANwC+C2EGPvJ96H3rSe4p9KDKaJrswAAAABJRU5ErkJggg=="></div>
+          <div class="p-1 bd-highlight" style="cursor: pointer;"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAACVklEQVRIie2WvWtaYRTGn6sovSQKuojRW3ApCC0oOAhOLung0tbFQUhL658ggkJp0z/ARWiHmIA4SsjgUEuWrGZQmi4d3NpEFCe/Cn48HYzprXntvcZ0CXngHe5733N+53APz32Be911SascJrkJ4CmAxwC2ABDABYBvAD5LktS/1epIKiQPSA65XEOS+ySV24K+1gAuakDy1brQDysAF7V7U+jOGtC53izLLxwukg8BfAfwAACm0ykMBoMwweHhIU5OTuDxeJBIJGAymdBqteB2uwFgCOCRJEk/9HZ7MC+5VqsxHo9zPB5fayeVShGzySYAKopCn8/HarWqPpbXC92kapiOjo4IgOFwmI1G4ypbt9ul0Wj8CwyANpuNlUpFDf5F0qIHHFVHNZtNyrJMADSbzYxGoywUCiyVStegAJjJZETf+rke8Dt1RL1eZyQSEUJEK5fLicBvFzmiiXGqH+x2O46PjzULnsvv94u2tzQDSX5aLLdYLNJqtWp263K5hENI8uMiR9TxxeJGMBiEomg7YTKZhNFoFL061wwm+UJUcjabvRoy0QqFQhyNRqJQknymB7xBgTdPJhPm83khPBAIsN1uL4MOSG5ogi/h+/Oo09NTxmIxOp3Oa0BZlplOp9nv95dBSXJPxFhmmQpmlikDQKfTQblcxtnZGXq9HhwOB7xeLyKRCCyWf3rDADPL/Kmr40v4f/1JaMF314C+vxFUBX/J2YDoVZ/kzlpQFdxNMq9RwIDkHkmXnpyrXvY2AGwDeII/NngO4CuAL5IkDVbJd6+7rd/szeUZOe7PtgAAAABJRU5ErkJggg=="></div>
+          <div class="p-1 bd-highlight" style="cursor: pointer;">SIGN IN</div>
+        </div></div>
+       </div>
+      </div>
+    </div>
+
+  <div>
+    <div class="text-center tx ">
+      THE TIMES OF INDIA
+    </div>
+  </div>
+  <div>
+    <div style="background-color: #BE2819;color:#ffff;">
+      <div class="container">
+        <div class="d-flex flex-row bd-highlight mb-3" style="cursor: pointer;">
+          <div class="px-1  bd-highlight"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAAAz0lEQVRIie2SPQ4BQRiG3xEhERVHcAcVtUSlcwylRuEKbrGdg2joNA4gkahEtuBRGCGstTO7aOZJvmQmk3mfb36kQCDwb4AKUPm1tAWsbbV+JW0DW+7sgM63pQPgwCtHYPgt6Qg4JUhvnIFxkUIDTFOEz8yAUl5pFYgcpDfmQC0t+1NnfUlNSRuHfjeS6pJ6DnuSASYOp51kyfR9i0hSw1bkE1D2FMfGmL0kAbFPQL7fl4O/ibNe9UrX32rsfPGwtpDUtWMkLYtpLRAIBN5wAZ74H12FTFiZAAAAAElFTkSuQmCC"></div>
+          <div class="px-1 c pt-1  bd-highlight" style="cursor: pointer;">Latest news</div>
+          <div class="px-1 c pt-1  bd-highlight" style="cursor: pointer;">Most shared</div>
+          <div class="px-1 c pt-1  bd-highlight" style="cursor: pointer;">Most readed</div>
+          <div class="px-1 c pt-1  bd-highlight" style="cursor: pointer;">Most commented</div>
+          <div class="px-1 c pt-1  bd-highlight" style="cursor: pointer;">Most Popular News</div>
+          <div class="px-1 c pt-1  bd-highlight" style="cursor: pointer;">Delhi Election</div>
+          <div class="px-1 c pt-1  bd-highlight" style="cursor: pointer;">Bihar Election</div>
+          <div class="px-1 pt-1  bd-highlight ms-auto" style="cursor: pointer;"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAABmJLR0QA/wD/AP+gvaeTAAABTklEQVRIie2UvUpDQRCFzwSvIsQmoNjYRksLKxsb0bxECoVAEH8eQ5vUBsTSd9BKAwEhYOEDBAQRxEIRgoQofBYZIUg0G9hEi3uqZe/hfDOXnZFSpUr1XwUYMD1OYAKUgQbQoatH4BTIjxI8B1wDL8ARsAGsAltADWgDxVGAEwffAPM/eHaBD6AQG172jvuCe3wVoAkkMeEN4DDAl/O3sB6anRkQmJG0LOlqUJCZPUu6lbQSBS5pUlIiqRWY15KUjQI3s7akJ0mL/b7X6/WZrzNgkvKS7kLhA+VzXAvwbQLvwEJMeN7neO8Xz6y/9Go0cE940buqALmee/OOm77x9qPDHVRwSMfH7xJ48KKqwIEvmlJo5kSo0czOgSVJa+qOU1bSmaQLM7v3At8kHQMys5Ph2osgYNv/wM7Y4V5ACXiNumqHLGDqT8CpUqX6rk/KHyrQN1QU8QAAAABJRU5ErkJggg=="></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container ">
+    <div class="mx-4">
+      <div>
+        <small>
+          News > Latest News
+        </small>
+      </div>
+      <p class="tai">
+        <b>
+          LATEST NEWS
+        </b>
+      </p>
+      <hr class="ha">
+      <div class="row mt-4">
+        <div class="col">
+          <div class="row ">
+            <div class="col "><img src="./photos/img1.png" alt="">
+              <div class="col f" style="cursor: pointer;"><b>Arms export tops Rs 11.6k cr,<br> up from Rs 1.9k cr in 2014-15: Govt
+                </b></div>
+
+            </div>
+          </div>
+          <hr>
+          <div class="row " style="margin-top:-40px;">
+            <div class="col">
+              <div class="row ">
+                <div class="col "><img src="./photos/img2.png" alt="">
+                  <div class="col f" style="cursor: pointer;"><b>Live:Ukraine forces couter near kyiv<br>Russia scales back goals
+                    </b></div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="row " style="margin-top:-40px;">
+            <div class="col">
+              <div class="row ">
+                <div class="col "><img src="./photos/img3.png" alt="">
+                  <div class="col f" style="cursor: pointer;"><b>Delhi budget vows 20L jobs in 5 years<br> edu gets top billing
+                    </b></div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <hr>
+          <div class="row " style="margin-top:-40px;">
+            <div class="col">
+              <div class="row ">
+                <div class="col "><img src="./photos/img4.png" alt="">
+                  <div class="col f" style="cursor: pointer;"><b>How KGB took back Russia and took on the<br> up from Rs 1.9k cr in 2014-15: Govt
+                    </b></div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col">
+          <div class="row">
+            <img class="add" src="./photos/adds.png" alt="">
+            <div><b>MOST POPULAR</b></div>
+          </div>
+          <div class="ms-2">
+            <div class="row">
+              <div class="col col-sm-3 col-md-3 col-lg-3 p" style="cursor: pointer;">shared</div>
+              <div class="col col-sm-3 col-md-3 col-lg-3 p" style="cursor: pointer;">commented</div>
+              <div class="col col-sm-3 col-md-3 col-lg-3 p" style="cursor: pointer;">read</div>
+              <div class="col col-sm-3 col-md-3 col-lg-3 p" style="cursor: pointer;">trending</div>
+
+            </div>
+          </div>
+          <div><small>Sidharth Shukla, Sushant Singh Rajput, Lata Mangeshkar 5 celebs whose properties went to charity
+              after their demise</small></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+
+    </script>
+</body>
+
+</html>
